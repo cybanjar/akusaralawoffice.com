@@ -9,7 +9,7 @@
         <q-toolbar-title class="text-center mobile-drawer-none">
           <div class="text-white text-bold">
             <q-btn to="/" flat label="Home" />
-            <q-btn to="/" flat label="About Us" />
+            <q-btn to="/about" flat label="About Us" />
             <q-btn-dropdown flat label="Our Lawyers">
               <q-list>
                 <q-item to="/partners" clickable v-close-popup>
@@ -154,7 +154,7 @@
             <div class="row items-center text-center">
               <div class="col">
                 <div class="text-weight-light text-body1" style="opacity:.4">
-                  © akusara 2021
+                  Akusaralaw © 2021
                 </div>
               </div>
             </div>
@@ -172,15 +172,27 @@
     >
       <q-scroll-area class="fit">
         <q-list dense padding class="menu-list">
-          <q-item clickable v-ripple>
+          <q-item to="/" clickable v-ripple>
             <q-item-section>
-              Home
+              <q-item-label> Home </q-item-label>
             </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple>
+          <q-item to="/about" clickable v-ripple>
             <q-item-section>
-              About Us
+              <q-item-label> About Us </q-item-label>
+            </q-item-section>
+          </q-item>
+
+          <q-item to="/contact" clickable v-ripple>
+            <q-item-section>
+              <q-item-label> Contact Us </q-item-label>
+            </q-item-section>
+          </q-item>
+
+          <q-item to="/associates" clickable v-close-popup>
+            <q-item-section>
+              <q-item-label>Associates</q-item-label>
             </q-item-section>
           </q-item>
 
