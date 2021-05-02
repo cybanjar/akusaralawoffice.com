@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-layout view="hHh Lpr lff" container style="height: 100vh" class="shadow-2">
-      <q-header unelevated class="bg-primary">
+      <q-header elevated class="bg-primary">
         <q-toolbar>
           <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
           <q-toolbar-title>Dashboard</q-toolbar-title>
@@ -32,6 +32,8 @@
             </template>
 
           </q-list>
+          
+          <q-btn class="fixed-bottom full-width q-py-sm" outline flat label="Logout" icon="logout" />
         </q-scroll-area>
       </q-drawer>
 
