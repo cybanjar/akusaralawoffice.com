@@ -3,7 +3,7 @@
     <q-header unelevated>
       <q-toolbar>
         <q-btn flat>
-          <img class="w-32" src="../assets/img/logo1.png" />
+          <img class="w-32" src="../assets/img/logo2.jpeg" />
         </q-btn>
 
         <q-toolbar-title class="text-center mobile-drawer-none">
@@ -92,7 +92,7 @@
               <div class="col-md-3 col-sm-4 col-xs-12">
                 <div>
                   <q-btn flat>
-                    <img class="w-32" src="../assets/img/logo1.png" />
+                    <img class="w-32" src="../assets/img/logo2.jpeg" />
                   </q-btn>
                 </div>
                 <div>
@@ -106,7 +106,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="col-md-3 col-sm-4 col-xs-6">
                 <q-list dense>
                   <q-item-label header class="text-white text-weight-bold">Response</q-item-label>
 
@@ -122,7 +122,7 @@
 
                 </q-list>
               </div>
-              <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="col-md-3 col-sm-4 col-xs-6">
                 <q-list dense>
                   <q-item-label header class="text-white text-weight-bold">About</q-item-label>
 
