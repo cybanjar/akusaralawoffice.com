@@ -88,7 +88,7 @@
       <q-toolbar>
         <q-toolbar-title>
           <div class="text-white q-pa-md">
-            <div class="row">
+            <div class="row isMobileHide">
               <div class="col-md-3 col-sm-4 col-xs-12">
                 <div>
                   <q-btn flat>
@@ -101,8 +101,8 @@
                   </a>
                 </div>
                 <div>
-                  <a class="alink" href="tel:+6287830120049">
-                    <q-btn color="white" icon="phone" class="text-lowercase text-weight-regular" flat label="+6287830120049" />
+                  <a class="alink" href="tel:+628111850107">
+                    <q-btn color="white" icon="phone" class="text-lowercase text-weight-regular" flat label="+628111850107" />
                   </a>
                 </div>
               </div>
@@ -140,7 +140,6 @@
                       </q-item-label>
                     </q-item-section>
                   </q-item>
-
                 </q-list>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-12">
@@ -148,7 +147,6 @@
                   <q-item-label header class="text-white text-weight-bold">Follow Me</q-item-label>
                 </q-list>
                 <q-btn flat round icon="facebook" />
-
               </div>
             </div>
             <div class="row items-center text-center">
@@ -220,6 +218,12 @@ export default {
 <style lang="scss" scoped>
 .alink {
   text-decoration: none;
+}
+
+@media screen and (max-width: 675px) {
+  .isMobileHide {
+    display: none;
+  }
 }
 
 </style>

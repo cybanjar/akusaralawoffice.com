@@ -1,6 +1,38 @@
 <template>
   <q-page>
-    <h5 class="text-center">Partners</h5>
+    <div>
+      <q-img
+        class="img-partner"
+        src="https://source.unsplash.com/1600x900/?office"
+      />
+      <div class="row justify-center q-my-lg">
+        <div class="col">
+          <div class="text-h5 text-center text-uppercase">Partners</div>
+          <hr class="hr-style" />
+        </div>
+      </div>
+
+      <div class="row q-gutter-sm">
+        <div class="col-md-4 offset-md-2">
+          <q-card>
+            <q-img src="https://source.unsplash.com/1600x900/?people" basic>
+              <div class="absolute-bottom text-subtitle2 text-center">
+                <q-btn to="contact" flat label="Djengiskan Manullang" />
+              </div>
+            </q-img>
+          </q-card>
+        </div>
+        <div class="col-md-4">
+          <q-card>
+            <q-img src="https://source.unsplash.com/1600x900/?man" basic>
+              <div class="absolute-bottom text-subtitle2 text-center">
+                <q-btn to="contact" flat label="Agyl Chandra Kusuma" />
+              </div>
+            </q-img>
+          </q-card>
+        </div>
+      </div>
+    </div>
   </q-page>
 </template>
 
@@ -17,11 +49,10 @@ export default defineComponent({
   name: "PagePartners",
 
   setup(props, { root: { $router } }) {
-    const state = reactive({
-    });
+    const state = reactive({});
 
     onMounted(async () => {
-      console.log('mounted!');
+      console.log("mounted!");
     });
 
     return {
@@ -32,4 +63,5 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+
 </style>

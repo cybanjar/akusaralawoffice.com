@@ -1,0 +1,28 @@
+{
+    "about": [
+        {
+            "id": "1",
+            "title": "about",
+            "description": "Partners Akusara, domiciled in Jakarta, is one of Indonesia’s premier law firms. It has undergone a number of name changes prior to being in its present structure of Akusara."
+        }
+    ],
+    "category": [
+        {
+            "id": "1",
+            "img-src": "assets/detail_food_1.png",
+            "title": "Egg and cheese muffin",
+            "subtitle": "Perpaduan roti burger dengan dengan tiga lapis daging",
+            "icon": "icon_food.svg",
+            "price": 20000,
+            "qty": 0
+        }
+    ],
+    "popular": [
+        {
+            "id": "1",
+            "img-src": "~/assets/popular_1.png",
+            "title": "nugget ayam",
+            "subtitle": "Most popular"
+        }
+    ]
+}

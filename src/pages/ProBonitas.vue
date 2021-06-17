@@ -1,6 +1,21 @@
 <template>
   <q-page>
-    <h5 class="text-center">Pro Bonitas</h5>
+    <q-img
+      class="img-partner"
+      src="https://source.unsplash.com/1600x900/?office"
+    />
+    <section id="legalService">
+      <div class="row justify-center q-my-lg">
+        <div class="col">
+          <div class="text-h5 text-center text-uppercase">Pro Bonitas</div>
+          <hr class="hr-style" />
+          <p class="text-grey text-center q-my-md">
+            We offer legal services for a broad array of legal and business
+            matters. Please contact us here to obtain further information.
+          </p>
+        </div>
+      </div>
+    </section>
   </q-page>
 </template>
 
